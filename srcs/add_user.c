@@ -14,16 +14,16 @@ static void	add_user_to_group(int group_id, char **matrix)
 
 bool	add_user(char **matrix)
 {
-    if(!ft_strcmp(matrix[1], "ULLOA"))
+    if(!ft_strcmp(matrix[1], "MORGANA"))
 		add_user_to_group(ULLOA, matrix);
 //        ft_lstadd_back(&groups[0].players, lstnew(matrix[0]));
     else if(!ft_strcmp(matrix[1], "CELIA"))
 		add_user_to_group(CELIA, matrix);
   //      ft_lstadd_back(&groups[1].players, lstnew(matrix[0]));
-    else if(!ft_strcmp(matrix[1], "MORGANA"))
+    else if(!ft_strcmp(matrix[1], "XINEBRA"))
 		add_user_to_group(MORGANA, matrix);
     //    ft_lstadd_back(&groups[2].players, lstnew(matrix[0]));
-    else if(!ft_strcmp(matrix[1], "JAIME"))
+    else if(!ft_strcmp(matrix[1], "JOHANNA"))
 		add_user_to_group(JAIME, matrix);
       //  ft_lstadd_back(&groups[3].players, lstnew(matrix[0]));
     else

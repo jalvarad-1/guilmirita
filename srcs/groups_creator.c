@@ -13,6 +13,7 @@
 #include "creator.h"
 #include <signal.h>
 #include <unistd.h>
+t_groups groups[4];
 void	rename_backup()
 {
 	printf ("Bye bye\n");
@@ -54,7 +55,6 @@ int main(int argc, char **argv)
     }
     while (1)
     {
-	    sleep(1);
 		t_player	*sorted_players;
 
 		sorted_players = get_sorted_players();

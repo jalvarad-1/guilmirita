@@ -34,7 +34,6 @@ t_player	*find_player(char *str)
 	i = 0;
 	while (i < 4)
 	{
-		printf("\nOK to here %d!\n", groups[i].total_points);
 		player = find_name_in_list(groups[i].players, str);
 		if (player != NULL) 
 			return (player);

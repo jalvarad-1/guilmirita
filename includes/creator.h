@@ -36,7 +36,7 @@ typedef struct s_groups
 	size_t	size;
 }               t_groups;
 
-t_groups groups[4];
+extern t_groups groups[4];
 
 char	*all_file(FILE *players_file);
 t_player	*find_player(char *str);
