@@ -60,7 +60,10 @@ int main(int argc, char **argv)
 		sorted_players = get_sorted_players();
 		display_rank(sorted_players);
 		free_player_list(sorted_players);
-
+        display_teams(&groups[0]);
+        display_teams(&groups[1]);
+        display_teams(&groups[2]);
+        display_teams(&groups[3]);
         printf("INTRODUZCA UN COMANDO :\n");
         while (scanf("%s", aux_str) == -1)
         {

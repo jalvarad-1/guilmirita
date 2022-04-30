@@ -65,7 +65,7 @@ void	display_teams(t_groups *team)
 {
 	char *array_teams[4] = {T1, T2, T3, T4};
 
-	printf("	🛡  Equipo: %s en cabeza con %i puntos  🛡	\n", array_teams[team->id], team->total_points);
+	printf("	🛡  Equipo: %s con %i puntos  🛡	\n", array_teams[team->id], team->total_points);
 }
 
 /*
